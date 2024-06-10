@@ -1,0 +1,39 @@
+{
+  "name": "moa-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 30000 --exit",
+    "serve": " node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.1",
+    "chai-http": "^4.4.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-winston": "^4.2.0",
+    "joi": "^17.13.1",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+
+}
